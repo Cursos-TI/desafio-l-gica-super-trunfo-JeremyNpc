@@ -38,11 +38,13 @@ int main() {
             scanf("%d", &Menu);
             switch(Menu) {
                 case 1:
-                    printf("Escolha um atributo: 1.População %d\n 2.Area %f\n 3.Pib %f\n 4.Pontos turisticos %d\n 5.Densidade Populacional %f\n 6.Pib per capita %f\n", populacao, Area1, Pib1, Turismo, Dp1, Pibpc1);
+                    printf("Escolha dois atributos: 1.População %d\n 2.Area %f\n 3.Pib %f\n 4.Pontos turisticos %d\n 5.Densidade Populacional %f\n 6.Pib per capita %f\n", populacao, Area1, Pib1, Turismo, Dp1, Pibpc1);
+                    scanf("%d", &Menu);
                     scanf("%d", &Menu);
                     break;
                 case 2:
-                    printf("Escolha um atributo: 1.População %d\n 2.Area %f\n 3.Pib %f\n 4.Pontos turisticos %d\n 5.Densidade Populacional %f\n 6.Pib per capita %f\n", Populacao, Area2, pib, Pt, Dp2, Pibpc2);
+                    printf("Escolha dois atributos: 1.População %d\n 2.Area %f\n 3.Pib %f\n 4.Pontos turisticos %d\n 5.Densidade Populacional %f\n 6.Pib per capita %f\n", Populacao, Area2, pib, Pt, Dp2, Pibpc2);
+                    scanf("%d", &Menu);
                     scanf("%d", &Menu);
                     break;
                 default:
@@ -106,7 +108,7 @@ int main() {
             printf("Densidade Populacional: %f\n", Dp1);
             printf("Pib per capita: %f\n\n", Pibpc1);
 
-            printf("Estado: %c\n, Codigo_da_carta: %s\n, Cidade: %s\n, Populaçao: %d habitantes\n, Area: %f km\n, Pib: %f\n, Pontos_Turisticos: %d ", S, codigoc, cidade2, Populacao, Area2, pib, Pt);
+            printf("Estado: %c\n, Codigo_da_carta: %s\n, Cidade: %s\n, Populaçao: %d habitantes\n, Area: %f km\n, Pib: %f\n, Pontos_Turisticos: %d\n ", S, codigoc, cidade2, Populacao, Area2, pib, Pt);
             printf("Densidade Populacional: %f\n", Dp2);
             printf("Pib per capita: %f\n\n", Pibpc2);
             break;
